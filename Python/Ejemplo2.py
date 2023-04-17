@@ -22,6 +22,7 @@ hilo1.start()
 hilo2.start()
 
 # esperamos a que terminen los hilos
+# El método join () se utiliza para especificar los elementos de una secuencia de caracteres
 hilo1.join()
 hilo2.join()
 
